@@ -2,7 +2,9 @@ const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center flex-row w-full mt-3 mb-5">
-        <h1 className="flex font-bold font-sans text-2xl">Summario</h1>
+        <h1 className="flex font-bold font-sans text-2xl">
+          Summar<span className="orange_gradient">io</span>
+        </h1>
         <button
           type="button"
           className="black_btn"
