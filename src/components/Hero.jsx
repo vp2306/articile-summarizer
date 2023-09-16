@@ -3,7 +3,14 @@ const Hero = () => {
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center flex-row w-full mt-3 mb-5">
         <h1 className="flex font-bold font-sans text-2xl">Summario</h1>
-        <button type="button" className="black_btn">
+        <button
+          type="button"
+          className="black_btn"
+          onClick={() => {
+            window.location.href =
+              "https://github.com/vp2306/article-summarizer";
+          }}
+        >
           Github
         </button>
       </nav>
